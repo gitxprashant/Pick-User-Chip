@@ -1,0 +1,52 @@
+.chip-input {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.chip {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.chip span {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list li {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
